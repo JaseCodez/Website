@@ -7,15 +7,50 @@ div.pfp>img {
 }
 
 .tabRedirect {
+    float: right;
     background-color: #2a273f;
     color: #c4a7e7;
     border-radius: 25px;
     border: none;
     height: 38px; 
     width: 100px;
+    cursor: pointer;
 }
+
+.tabRedirect:hover {
+    background-color: #907aa9;
+} 
+
+.tab {
+    overflow: hidden;
+    background-color: #2a273f;
+}
+
+.tab a {
+    float: right; 
+    color: #c4a7e7;
+}
+
+.contact {
+    overflow: hidden;
+    background-color: #26233a;
+    position: fixed; 
+    bottom: 0;
+    width: 100%;
+}
+
+.Jason {
+    color: white;
+}
+
+.tab-button {
+    padding: 0px;
+}
+
 
 body {
     font-family: "IBM Plex Mono";
+    background-color: #2a273f;
+    color: white;
 }
 
