@@ -6,6 +6,11 @@ div.pfp>img {
     width: 200px;
 }
 
+.pfp {
+    background-color: #e0def4;
+    display: flex;
+}
+
 .tabRedirect {
     float: right;
     background-color: #2a273f;
@@ -46,6 +51,19 @@ div.pfp>img {
     padding: 0px;
 }
 
+.day {
+    border: 1px solid #c4a7e7;
+    color: #c4a7e7;
+    background-color: white;
+    border-radius: 15px;
+    height: 100px; 
+    width: 80px; 
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+    cursor: pointer;
+    padding: 0%;
+}
 
 body {
     font-family: "IBM Plex Mono";
