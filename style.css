@@ -34,7 +34,6 @@ div.pfp>img {
 .contact {
     overflow: hidden;
     background-color: #26233a;
-    position: fixed; 
     bottom: 0;
     width: 100%;
 }
